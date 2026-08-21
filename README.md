@@ -1,4 +1,4 @@
-# UjasCode.com Frontend
+# UJASCODE
 
 Static frontend built with HTML, CSS and vanilla JavaScript.
 
