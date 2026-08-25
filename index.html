@@ -336,32 +336,49 @@
             real.
           </p>
 
-          <form id="contactForm" class="contact-form">
+          <form
+            id="contactForm"
+            class="contact-form"
+            action="https://formspree.io/f/maewrbzl"
+            method="POST"
+            accept-charset="UTF-8"
+          >
+            <input
+              type="hidden"
+              name="_subject"
+              value="New UJASCODE Project Request"
+            />
+
             <div class="field-row">
-              <label
-                ><span>Name</span
-                ><input
+              <label>
+                <span>Name</span>
+                <input
                   required
                   type="text"
                   name="name"
                   placeholder="Your name"
-              /></label>
-              <label
-                ><span>Email</span
-                ><input
+                />
+              </label>
+
+              <label>
+                <span>Email</span>
+                <input
                   required
                   type="email"
-                  name="email"
+                  name="_replyto"
                   placeholder="you@example.com"
-              /></label>
+                />
+              </label>
             </div>
+
             <div class="field-row">
-              <label
-                ><span>Company</span
-                ><input type="text" name="company" placeholder="Company name"
-              /></label>
-              <label
-                ><span>Project type</span>
+              <label>
+                <span>Company</span>
+                <input type="text" name="company" placeholder="Company name" />
+              </label>
+
+              <label>
+                <span>Project type</span>
                 <select name="type">
                   <option value="">Select one</option>
                   <option>Website</option>
@@ -373,18 +390,25 @@
                 </select>
               </label>
             </div>
-            <label
-              ><span>Project details</span
-              ><textarea
+
+            <label>
+              <span>Project details</span>
+              <textarea
                 required
                 name="message"
                 rows="6"
                 placeholder="Tell us about your idea..."
               ></textarea>
             </label>
-            <button class="button button-light submit-button" type="submit">
+
+            <button
+              class="button button-light submit-button"
+              id="submitButton"
+              type="submit"
+            >
               Send Project Request <span>↗</span>
             </button>
+
             <p class="form-status" id="formStatus" role="status"></p>
           </form>
         </div>
