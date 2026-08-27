@@ -10,11 +10,6 @@ https://ujascode.vercel.app
 
 Contact UJASCODE through WhatsApp, email, or Instagram.
 
-## Technology
-
-- HTML5
-- CSS3
-- Vanilla JavaScript
 
 ## License
 
