@@ -1,246 +1,224 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="UJASCODE builds modern websites, web applications, and software solutions."
-    />
-    <meta name="theme-color" content="#000000" />
-    <title>UJASCODE — Software Development</title>
-    <link rel="icon" type="image/png" href="logo.png" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
 
-  <body>
-    <div class="cursor-glow" aria-hidden="true"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="UJASCODE builds modern websites, web applications, and software solutions." />
+  <meta name="theme-color" content="#000000" />
+  <title>UJASCODE — Software Development</title>
+  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-    <header class="site-header">
-      <nav class="navbar" aria-label="Main navigation">
-        <a class="brand" href="#home" aria-label="UJASCODE home">
-          <img src="logo.png" alt="UJASCODE logo" />
-          <span>UJASCODE</span>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="UJASCODE home">
+        <img src="logo.png" alt="UJASCODE logo" />
+        <span>UJASCODE</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <a class="nav-cta" href="#contact">Start a Project <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">SOFTWARE DEVELOPMENT</p>
+        <h1>We build digital products that <span>work.</span></h1>
+        <p class="hero-text">
+          UJASCODE builds modern websites, web applications, and software
+          solutions with clean interfaces, reliable engineering, and
+          responsive experiences.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-light" href="#contact">Start a Project <span>↗</span></a>
+          <a class="button button-dark" href="#work">View Work <span>↓</span></a>
+        </div>
+      </div>
+
+      <div class="hero-mark" aria-hidden="true">
+        <img src="logo.png" alt="" />
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="section-heading">
+        <p class="eyebrow">SERVICES</p>
+        <h2>What we build</h2>
+      </div>
+
+      <div class="service-grid">
+        <article class="service-card">
+          <span class="service-number">01</span>
+          <h3>Websites</h3>
+          <p>
+            Responsive, fast, professional websites designed for modern
+            businesses and brands.
+          </p>
+        </article>
+
+        <article class="service-card">
+          <span class="service-number">02</span>
+          <h3>Web Applications</h3>
+          <p>
+            Interactive web applications with structured frontend, backend,
+            database, and authentication workflows.
+          </p>
+        </article>
+
+        <article class="service-card">
+          <span class="service-number">03</span>
+          <h3>Software Solutions</h3>
+          <p>
+            Custom digital solutions designed around a business process,
+            product idea, or operational requirement.
+          </p>
+        </article>
+
+        <article class="service-card">
+          <span class="service-number">04</span>
+          <h3>Maintenance</h3>
+          <p>
+            Frontend and backend improvements, bug fixes, updates, deployment
+            support, and ongoing maintenance.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section work-section" id="work">
+      <div class="section-heading">
+        <p class="eyebrow">SELECTED WORK</p>
+        <h2>Built with purpose.</h2>
+      </div>
+
+      <div class="work-grid">
+        <article class="work-card">
+          <div class="work-top">
+            <span>01</span>
+            <span>FULL STACK</span>
+          </div>
+          <h3>Code4Web</h3>
+          <p>
+            Full-stack website template marketplace.
+          </p>
+        </article>
+
+        <article class="work-card">
+          <div class="work-top">
+            <span>02</span>
+            <span>WEB APPLICATION</span>
+          </div>
+          <h3>Premium Dairy</h3>
+          <p>
+            Web-based management system for dairy farm and ice cream business
+            operations.
+          </p>
+        </article>
+
+        <article class="work-card">
+          <div class="work-top">
+            <span>03</span>
+            <span>WEB</span>
+          </div>
+          <h3>Unfit to Fit</h3>
+          <p>
+            Responsive fitness-focused website with interactive UI and simple
+            navigation.
+          </p>
+        </article>
+
+        <article class="work-card">
+          <div class="work-top">
+            <span>04</span>
+            <span>FULL STACK WEB APP</span>
+          </div>
+          <h3>LifeLink</h3>
+          <p>
+            Emergency organ donor network that connects donors,
+            recipients, and administrators through a centralized web platform.
+          </p>
+        </article>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="about-copy">
+        <p class="eyebrow">ABOUT UJASCODE</p>
+        <h2>From idea to a working product.</h2>
+      </div>
+      <div class="about-text">
+        <p>
+          UJASCODE is a software development company focused on building
+          modern, responsive, and scalable digital products.
+        </p>
+        <p>
+          Our work covers websites, web applications, custom software
+          solutions, integrations, and ongoing improvements.
+        </p>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-intro">
+        <p class="eyebrow">START A PROJECT</p>
+        <h2>
+          Tell us what you want to build. Let's turn the idea into something
+          real.
+        </h2>
+      </div>
+
+      <div class="direct-contact">
+        <p class="contact-note">
+          Choose any option below to contact UJASCODE.
+        </p>
+
+        <a class="contact-option"
+          href="https://wa.me/917383374133?text=Hello%20UJASCODE,%20I%20want%20to%20discuss%20a%20project."
+          target="_blank" rel="noopener noreferrer">
+          <span>WhatsApp</span>
+          <small>+91 73833 74133</small>
         </a>
 
-        <button
-          class="menu-toggle"
-          type="button"
-          aria-label="Open navigation"
-          aria-expanded="false"
-        >
-          <span></span><span></span><span></span>
-        </button>
+        <a class="contact-option" href="mailto:ujas.code@gmail.com?subject=Project%20Enquiry%20for%20UJASCODE">
+          <span>Email</span>
+          <small>ujas.code@gmail.com</small>
+        </a>
 
-        <div class="nav-links">
-          <a href="#home">Home</a>
-          <a href="#services">Services</a>
-          <a href="#work">Work</a>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
-        </div>
-
-        <a class="nav-cta" href="#contact">Start a Project <span>↗</span></a>
-      </nav>
-    </header>
-
-    <main>
-      <section class="hero section" id="home">
-        <div class="hero-content">
-          <p class="eyebrow">SOFTWARE DEVELOPMENT</p>
-          <h1>We build digital products that <span>work.</span></h1>
-          <p class="hero-text">
-            UJASCODE builds modern websites, web applications, and software
-            solutions with clean interfaces, reliable engineering, and
-            responsive experiences.
-          </p>
-
-          <div class="hero-actions">
-            <a class="button button-light" href="#contact"
-              >Start a Project <span>↗</span></a
-            >
-            <a class="button button-dark" href="#work"
-              >View Work <span>↓</span></a
-            >
-          </div>
-        </div>
-
-        <div class="hero-mark" aria-hidden="true">
-          <img src="logo.png" alt="" />
-        </div>
-      </section>
-
-      <section class="section" id="services">
-        <div class="section-heading">
-          <p class="eyebrow">SERVICES</p>
-          <h2>What we build</h2>
-        </div>
-
-        <div class="service-grid">
-          <article class="service-card">
-            <span class="service-number">01</span>
-            <h3>Websites</h3>
-            <p>
-              Responsive, fast, professional websites designed for modern
-              businesses and brands.
-            </p>
-          </article>
-
-          <article class="service-card">
-            <span class="service-number">02</span>
-            <h3>Web Applications</h3>
-            <p>
-              Interactive web applications with structured frontend, backend,
-              database, and authentication workflows.
-            </p>
-          </article>
-
-          <article class="service-card">
-            <span class="service-number">03</span>
-            <h3>Software Solutions</h3>
-            <p>
-              Custom digital solutions designed around a business process,
-              product idea, or operational requirement.
-            </p>
-          </article>
-
-          <article class="service-card">
-            <span class="service-number">04</span>
-            <h3>Maintenance</h3>
-            <p>
-              Frontend and backend improvements, bug fixes, updates, deployment
-              support, and ongoing maintenance.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section work-section" id="work">
-        <div class="section-heading">
-          <p class="eyebrow">SELECTED WORK</p>
-          <h2>Built with purpose.</h2>
-        </div>
-
-        <div class="work-grid">
-          <article class="work-card">
-            <div class="work-top">
-              <span>01</span>
-              <span>FULL STACK</span>
-            </div>
-            <h3>Code4Web</h3>
-            <p>
-              Full-stack website template marketplace built with Next.js, React,
-              Tailwind CSS, and Supabase.
-            </p>
-            <div class="tags">
-              <span>Next.js</span><span>React</span><span>Supabase</span>
-            </div>
-          </article>
-
-          <article class="work-card">
-            <div class="work-top">
-              <span>02</span>
-              <span>WEB APPLICATION</span>
-            </div>
-            <h3>Premium Dairy</h3>
-            <p>
-              Web-based management system for dairy farm and ice cream business
-              operations.
-            </p>
-            <div class="tags"><span>React</span><span>Node.js</span></div>
-          </article>
-
-          <article class="work-card">
-            <div class="work-top">
-              <span>03</span>
-              <span>WEB</span>
-            </div>
-            <h3>Unfit to Fit</h3>
-            <p>
-              Responsive fitness-focused website with interactive UI and simple
-              navigation.
-            </p>
-            <div class="tags">
-              <span>HTML</span><span>CSS</span><span>JavaScript</span>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="section about-section" id="about">
-        <div class="about-copy">
-          <p class="eyebrow">ABOUT UJASCODE</p>
-          <h2>From idea to a working product.</h2>
-        </div>
-        <div class="about-text">
-          <p>
-            UJASCODE is a software development company focused on building
-            modern, responsive, and scalable digital products.
-          </p>
-          <p>
-            Our work covers websites, web applications, custom software
-            solutions, integrations, and ongoing improvements.
-          </p>
-        </div>
-      </section>
-
-      <section class="section contact-section" id="contact">
-        <div class="contact-intro">
-          <p class="eyebrow">START A PROJECT</p>
-          <h2>
-            Tell us what you want to build. Let's turn the idea into something
-            real.
-          </h2>
-        </div>
-
-        <form action="https://formspree.io/f/maewrbzl" method="POST">
-          <input
-            type="hidden"
-            name="_subject"
-            value="New UJASCODE Project Request"
-          />
-
-          <input type="text" name="name" placeholder="Your name" required />
-
-          <input
-            type="email"
-            name="email"
-            placeholder="you@example.com"
-            required
-          />
-
-          <input type="text" name="company" placeholder="Company name" />
-
-          <select name="project_type" required>
-            <option value="" disabled selected>Select project type</option>
-            <option value="Website">Website</option>
-            <option value="Web Application">Web Application</option>
-            <option value="Software Solution">Software Solution</option>
-            <option value="Dashboard">Dashboard</option>
-            <option value="API / Backend">API / Backend</option>
-            <option value="Maintenance">Maintenance</option>
-            <option value="Other">Other</option>
-          </select>
-
-          <textarea
-            name="message"
-            placeholder="Tell us about your project..."
-            required
-          ></textarea>
-
-          <button type="submit">Send Project Request</button>
-        </form>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <div>
-        <strong>UJASCODE</strong>
-        <p>Building modern digital products.</p>
+        <a class="contact-option" href="https://www.instagram.com/ujascode/" target="_blank" rel="noopener noreferrer">
+          <span>Instagram</span>
+          <small>@ujascode</small>
+        </a>
       </div>
-      <p>© <span id="year"></span> UJASCODE. All rights reserved.</p>
-    </footer>
+    </section>
+  </main>
 
-    <script src="script.js"></script>
-  </body>
+  <footer class="site-footer">
+    <div>
+      <strong>UJASCODE</strong>
+      <p>Building modern digital products.</p>
+    </div>
+    <p>© <span id="year"></span> UJASCODE. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
 </html>

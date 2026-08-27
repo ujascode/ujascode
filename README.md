@@ -8,14 +8,13 @@ https://ujascode.vercel.app
 
 ## Contact
 
-Use the contact form on the website to send a project request.
+Contact UJASCODE through WhatsApp, email, or Instagram.
 
 ## Technology
 
 - HTML5
 - CSS3
 - Vanilla JavaScript
-- Formspree
 
 ## License
 
