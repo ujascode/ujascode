@@ -1,24 +1,50 @@
-# Operating system files
+# =====================================================
+# UJASCODE.IN
+# GITIGNORE
+# =====================================================
+
+# Operating System
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# Editor files
-.vscode/
-.idea/
-
-# Logs
-*.log
-
-# Environment and secrets
-.env
-.env.*
-!.env.example
-
-# Temporary files
+# Windows temporary files
 *.tmp
 *.temp
 
-# Node/npm
+# VS Code
+.vscode/
+
+# Local development
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.production
+.env.production.local
+
+# Node.js
 node_modules/
-npm-debug.log*
+
+# Build / deployment output
+dist/
+build/
+.next/
+.vercel/
+
+# Temporary files
+temp/
+tmp/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Editor temporary files
+*.swp
+*.swo
