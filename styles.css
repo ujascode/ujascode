@@ -16207,3 +16207,631 @@ button {
 
     transform: none;
 }
+
+/* =====================================================
+   EVERUS PROJECT
+===================================================== */
+
+.everus-visual {
+    position: relative;
+
+    min-height: 510px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    overflow: hidden;
+
+    background:
+        radial-gradient(
+            circle at center,
+            rgba(255,255,255,0.055),
+            transparent 68%
+        );
+}
+
+
+/* =====================================================
+   EVERUS BACKGROUND GRID
+===================================================== */
+
+.everus-visual::before {
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    background-image:
+        linear-gradient(
+            rgba(255,255,255,0.035) 1px,
+            transparent 1px
+        ),
+        linear-gradient(
+            90deg,
+            rgba(255,255,255,0.035) 1px,
+            transparent 1px
+        );
+
+    background-size: 55px 55px;
+
+    mask-image:
+        radial-gradient(
+            circle,
+            black 0%,
+            transparent 72%
+        );
+
+    pointer-events: none;
+}
+
+
+/* =====================================================
+   EVERUS WINDOW
+===================================================== */
+
+.everus-window {
+    position: relative;
+
+    z-index: 2;
+
+    width: 86%;
+
+    overflow: hidden;
+
+    border:
+        1px solid
+        rgba(255,255,255,0.14);
+
+    background: #0a0a0a;
+
+    box-shadow:
+        0 40px 90px
+        rgba(0,0,0,0.62);
+
+    transform:
+        perspective(1400px)
+        rotateX(2deg);
+
+    transition:
+        transform 0.55s
+        cubic-bezier(.2,.7,.2,1),
+        box-shadow 0.55s ease;
+}
+
+
+.everus-visual:hover
+.everus-window {
+    transform:
+        perspective(1400px)
+        rotateX(0deg)
+        translateY(-10px)
+        scale(1.012);
+
+    box-shadow:
+        0 55px 120px
+        rgba(0,0,0,0.78);
+}
+
+
+/* =====================================================
+   EVERUS TOP BAR
+===================================================== */
+
+.everus-top {
+    height: 44px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 0 15px;
+
+    border-bottom:
+        1px solid
+        rgba(255,255,255,0.08);
+
+    background: #101010;
+
+    color:
+        rgba(255,255,255,0.38);
+
+    font-size: 9px;
+
+    font-weight: 600;
+
+    letter-spacing: 0.08em;
+
+    text-transform: uppercase;
+}
+
+
+/* =====================================================
+   EVERUS SCREEN
+===================================================== */
+
+.everus-screen {
+    position: relative;
+
+    min-height: 420px;
+
+    background:
+        linear-gradient(
+            145deg,
+            #111111,
+            #080808
+        );
+
+    color: #ffffff;
+}
+
+
+/* =====================================================
+   EVERUS NAV
+===================================================== */
+
+.everus-nav {
+    height: 54px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 24px;
+
+    padding: 0 24px;
+
+    border-bottom:
+        1px solid
+        rgba(255,255,255,0.08);
+
+    color:
+        rgba(255,255,255,0.38);
+
+    font-size: 9px;
+
+    letter-spacing: 0.05em;
+}
+
+
+.everus-nav strong {
+    margin-right: auto;
+
+    color: #ffffff;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    letter-spacing: -0.01em;
+}
+
+
+.everus-nav span {
+    transition:
+        color 0.25s ease;
+}
+
+
+.everus-nav span:hover {
+    color: #ffffff;
+}
+
+
+/* =====================================================
+   EVERUS HERO
+===================================================== */
+
+.everus-hero {
+    position: relative;
+
+    padding:
+        70px 42px 36px;
+
+    overflow: hidden;
+}
+
+
+.everus-hero::before {
+    content: "";
+
+    position: absolute;
+
+    width: 220px;
+
+    height: 220px;
+
+    top: 20px;
+
+    right: 20px;
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(
+            circle,
+            rgba(255,255,255,0.08),
+            transparent 68%
+        );
+
+    filter: blur(10px);
+
+    pointer-events: none;
+}
+
+
+.everus-hero small {
+    position: relative;
+
+    display: block;
+
+    color:
+        rgba(255,255,255,0.38);
+
+    font-size: 8px;
+
+    font-weight: 700;
+
+    letter-spacing: 0.18em;
+}
+
+
+.everus-hero h3 {
+    position: relative;
+
+    max-width: 430px;
+
+    margin:
+        18px 0 0;
+
+    color: #ffffff;
+
+    font-size:
+        clamp(
+            34px,
+            4vw,
+            52px
+        );
+
+    line-height: 0.96;
+
+    letter-spacing: -0.055em;
+
+    font-weight: 600;
+}
+
+
+.everus-hero h3 span {
+    color:
+        rgba(255,255,255,0.35);
+}
+
+
+.everus-hero p {
+    position: relative;
+
+    max-width: 390px;
+
+    margin-top: 20px;
+
+    color:
+        rgba(255,255,255,0.46);
+
+    font-size: 12px;
+
+    line-height: 1.7;
+}
+
+
+/* =====================================================
+   EVERUS FEATURE ROW
+===================================================== */
+
+.everus-features {
+    position: relative;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, minmax(0, 1fr));
+
+    gap: 8px;
+
+    padding:
+        0 42px 32px;
+}
+
+
+.everus-feature {
+    min-height: 92px;
+
+    padding: 14px;
+
+    border:
+        1px solid
+        rgba(255,255,255,0.09);
+
+    background:
+        rgba(255,255,255,0.025);
+
+    transition:
+        background 0.25s ease,
+        border-color 0.25s ease,
+        transform 0.25s ease;
+}
+
+
+.everus-feature:hover {
+    transform: translateY(-3px);
+
+    border-color:
+        rgba(255,255,255,0.17);
+
+    background:
+        rgba(255,255,255,0.045);
+}
+
+
+.everus-feature strong {
+    display: block;
+
+    color: #ffffff;
+
+    font-size: 10px;
+
+    font-weight: 650;
+}
+
+
+.everus-feature small {
+    display: block;
+
+    margin-top: 7px;
+
+    color:
+        rgba(255,255,255,0.32);
+
+    font-size: 8px;
+
+    line-height: 1.5;
+}
+
+
+/* =====================================================
+   EVERUS STATUS
+===================================================== */
+
+.everus-status {
+    position: absolute;
+
+    right: 24px;
+
+    top: 72px;
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 7px;
+
+    padding:
+        7px 10px;
+
+    border:
+        1px solid
+        rgba(255,255,255,0.09);
+
+    background:
+        rgba(255,255,255,0.025);
+
+    color:
+        rgba(255,255,255,0.5);
+
+    font-size: 7px;
+
+    font-weight: 700;
+
+    letter-spacing: 0.1em;
+
+    text-transform: uppercase;
+}
+
+
+.everus-status::before {
+    content: "";
+
+    width: 5px;
+
+    height: 5px;
+
+    border-radius: 50%;
+
+    background: #ffffff;
+
+    box-shadow:
+        0 0 0 4px
+        rgba(255,255,255,0.06);
+}
+
+
+/* =====================================================
+   EVERUS DEVICE ID
+===================================================== */
+
+.everus-device {
+    position: absolute;
+
+    right: 24px;
+
+    bottom: 28px;
+
+    padding:
+        8px 11px;
+
+    border:
+        1px solid
+        rgba(255,255,255,0.09);
+
+    background:
+        rgba(0,0,0,0.3);
+
+    color:
+        rgba(255,255,255,0.32);
+
+    font-size: 7px;
+
+    letter-spacing: 0.12em;
+}
+
+
+/* =====================================================
+   EVERUS RESPONSIVE
+===================================================== */
+
+@media (max-width: 900px) {
+
+    .everus-visual {
+        min-height: 430px;
+    }
+
+    .everus-window {
+        width: 91%;
+    }
+
+    .everus-screen {
+        min-height: 360px;
+    }
+
+    .everus-hero {
+        padding:
+            55px 30px 28px;
+    }
+
+    .everus-features {
+        padding:
+            0 30px 28px;
+    }
+
+}
+
+
+@media (max-width: 650px) {
+
+    .everus-visual {
+        min-height: 350px;
+    }
+
+    .everus-window {
+        width: 94%;
+    }
+
+    .everus-top {
+        height: 34px;
+
+        padding: 0 10px;
+
+        font-size: 8px;
+    }
+
+    .everus-screen {
+        min-height: 300px;
+    }
+
+    .everus-nav {
+        height: 40px;
+
+        gap: 12px;
+
+        padding:
+            0 14px;
+
+        font-size: 7px;
+    }
+
+    .everus-nav strong {
+        font-size: 9px;
+    }
+
+    .everus-hero {
+        padding:
+            38px 20px 20px;
+    }
+
+    .everus-hero small {
+        font-size: 6px;
+    }
+
+    .everus-hero h3 {
+        font-size: 29px;
+    }
+
+    .everus-hero p {
+        margin-top: 14px;
+
+        font-size: 9px;
+
+        line-height: 1.55;
+    }
+
+    .everus-features {
+        grid-template-columns: 1fr;
+
+        gap: 5px;
+
+        padding:
+            0 20px 18px;
+    }
+
+    .everus-feature {
+        min-height: auto;
+
+        padding: 10px;
+    }
+
+    .everus-feature strong {
+        font-size: 8px;
+    }
+
+    .everus-feature small {
+        font-size: 6px;
+    }
+
+    .everus-status {
+        top: 50px;
+
+        right: 14px;
+
+        padding:
+            5px 7px;
+
+        font-size: 5px;
+    }
+
+    .everus-device {
+        right: 14px;
+
+        bottom: 18px;
+
+        font-size: 5px;
+    }
+
+}
+
+
+/* =====================================================
+   REDUCED MOTION
+===================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .everus-window,
+    .everus-feature {
+        transition: none;
+    }
+
+}
