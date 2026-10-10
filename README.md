@@ -1,3 +1,53 @@
+## Building in public
+
+<div align="center">
+
+# Ujas Code
+
+> Technical founder
+
+<p align="center">
+  <img src="https://www.gitskins.com/api/section/hero?username=ujascode&theme=satan&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F105309355%3Fu%3D187ad84e0f60f7b60f7bf146db148d6e9b613b9f%26v%3D4" alt="ujascode hero visual" />
+</p>
+
+</div>
+
+## The point of view
+
+> Turning ideas into scalable web applications with clean architecture, modern technologies, and great user experience.
+
+- 📍 Based in **Gujarat, India**
+- 🌐 [Website](https://ujasportfolio.vercel.app)
+- 👥 **7** followers · **4** following
+
+*Small, useful work over vague claims.*
+
+## Products and proof
+
+<table>
+<tr><td width="32%"><b><a href="https://github.com/ujascode/Factory-3D-model">Factory-3D-model</a></b></td><td>A selected project from this GitHub profile.<br/><sub>JavaScript · 0 stars</sub></td></tr>
+<tr><td width="32%"><b><a href="https://github.com/ujascode/CNC-Machine-3D-model-sample">CNC-Machine-3D-model-sample</a></b></td><td>A selected project from this GitHub profile.<br/><sub>JavaScript · 0 stars</sub></td></tr>
+<tr><td width="32%"><b><a href="https://github.com/ujascode/LifeLink">LifeLink</a></b></td><td>LifeLink – Smart Hospital-to-Hospital Organ Exchange Platform for verified hospitals to manage organ availability, requests, hospital coordination, and emergency transplant communication.<br/><sub>JavaScript · 0 stars</sub></td></tr>
+<tr><td width="32%"><b><a href="https://github.com/ujascode/ujascode">ujascode</a></b></td><td>UJASCODE - COMPANY<br/><sub>CSS · 0 stars</sub></td></tr>
+</table>
+
+## Momentum
+
+<table>
+<tr><td align="center"><b>10</b><br/><sub>repos</sub></td><td align="center"><b>0</b><br/><sub>stars</sub></td><td align="center"><b>112</b><br/><sub>contributions</sub></td></tr>
+</table>
+
+## Start a conversation
+
+<p align="center">
+  <img src="https://www.gitskins.com/api/section/social?username=ujascode&theme=satan&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F105309355%3Fu%3D187ad84e0f60f7b60f7bf146db148d6e9b613b9f%26v%3D4" alt="ujascode social visual" />
+</p>
+
+<a href="https://github.com/ujascode">GitHub</a> · <a href="https://ujasportfolio.vercel.app">Website</a>
+
+<p align="center"><sub>Ujas Code · Founder profile generated with <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub></p>
+
+
 # UJASCODE.IN
 
 Professional websites, web applications, and digital solutions for modern businesses.
