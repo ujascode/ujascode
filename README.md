@@ -45,7 +45,7 @@
 
 <a href="https://github.com/ujascode">GitHub</a> · <a href="https://ujasportfolio.vercel.app">Website</a>
 
-<p align="center"><sub>Ujas Code · Founder profile generated with <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub></p>
+<p align="center"><sub>Ujas Code · Founder profile</sub></p>
 
 
 # UJASCODE.IN
