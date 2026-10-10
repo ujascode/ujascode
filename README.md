@@ -1,5 +1,3 @@
-## Building in public
-
 <div align="center">
 
 # Ujas Code
