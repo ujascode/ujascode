@@ -4,7 +4,7 @@
 Building useful digital products with modern web technologies,
 thoughtful engineering, and clean user experiences.
 
-[Personal Website](https://ujasportfolio.vercel.app) | [Company Website](https://ujascode.in/)
+[Personal Website](https://portfolio.ujascode.in) | [Company Website](https://ujascode.in/)
 
 ---
 
@@ -63,17 +63,10 @@ UJASCODE.IN is a software development and digital solutions brand focused on bus
 
 ---
 
-## GitHub Activity
-
-![Ujascode's GitHub stats](https://github-readme-stats.vercel.app/api?username=ujascode&show_icons=true&theme=dark&hide_border=true)
-*GitHub stats for ujascode*
-
----
-
 ## Connect with Me
 
 - **GitHub:** [ujascode](https://github.com/ujascode)
-- **Personal Portfolio:** [ujasportfolio.vercel.app](https://ujasportfolio.vercel.app)
+- **Personal Portfolio:** [ujasportfolio.vercel.app](https://portfolio.ujascode.in)
 - **UJASCODE.IN:** [ujascode.in](https://ujascode.in/)
 
 ---
