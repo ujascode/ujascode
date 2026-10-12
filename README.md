@@ -18,6 +18,7 @@ I am a full-stack developer passionate about building modern, responsive web app
 
 - Full-stack development
 - Modern web applications
+- Application development
 - Building and improving practical projects
 - Growing UJASCODE.IN
 
