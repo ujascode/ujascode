@@ -1,5 +1,5 @@
 # Ujas Shekhat
-## Technical Founder | Full-Stack Web Developer
+## Technical Founder | Full-Stack & Android Developer
 
 Building modern web applications and mobile apps through thoughtful engineering, scalable architecture, and exceptional user experiences.
 
