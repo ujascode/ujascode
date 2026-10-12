@@ -10,7 +10,7 @@ thoughtful engineering, and clean user experiences.
 
 ## About Me
 
-I am a full-stack web developer passionate about building modern, responsive web applications and digital experiences. I enjoy solving practical problems with clean architecture and modern technologies. My focus is on creating useful products that combine thoughtful engineering with excellent user experiences.
+I am a full-stack developer passionate about building modern, responsive web applications and digital experiences. I enjoy solving practical problems with clean architecture and modern technologies. My focus is on creating useful products that combine thoughtful engineering with excellent user experiences.
 
 ---
 
