@@ -82,4 +82,4 @@ A sample 3D model of a CNC machine for demonstration or testing.
 
 ---
 
-Crafting digital experiences that merge technical excellence with purposeful design.
+Crafting impactful digital experiences through modern technologies, thoughtful engineering, and purposeful design.
