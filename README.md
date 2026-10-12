@@ -9,7 +9,7 @@ Building modern web applications and mobile apps through thoughtful engineering,
 
 ## About Me
 
-I am a Full-Stack Developer and Technical Founder passionate about building modern, responsive web applications, Android apps, and digital experiences. I enjoy solving real-world problems through clean architecture, scalable solutions, and modern technologies. My focus is on creating practical, user-centric products that combine thoughtful engineering, innovative design, and exceptional user experiences.
+I’m a Full-Stack Developer and Technical Founder passionate about building modern web applications, Android apps, and impactful digital experiences. I enjoy solving real-world problems through clean architecture, scalable solutions, and modern technologies. My focus is on transforming ideas into practical, user-centric products that combine thoughtful engineering, innovative design, and exceptional user experiences.
 
 ---
 
