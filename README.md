@@ -10,27 +10,29 @@ thoughtful engineering, and clean user experiences.
 
 ## About Me
 
-I am a full-stack developer passionate about building modern, responsive web applications and digital experiences. I enjoy solving practical problems with clean architecture and modern technologies. My focus is on creating useful products that combine thoughtful engineering with excellent user experiences.
+I am a Full-Stack Developer and Technical Founder passionate about building modern, responsive web applications, Android apps, and digital experiences. I enjoy solving real-world problems through clean architecture, scalable solutions, and modern technologies. My focus is on creating practical, user-centric products that combine thoughtful engineering, innovative design, and exceptional user experiences.
 
 ---
 
 ## Current Focus
 
-- Full-stack development
-- Modern web applications
-- Application development
-- Building and improving practical projects
-- Growing UJASCODE.IN
+- Building full-stack web applications with Next.js, React, and Node.js
+- Developing Android applications with Kotlin and Jetpack Compose
+- Exploring modern application architecture, security, and performance optimization
+- Building practical, user-focused digital products
+- Improving UI/UX, scalability, and application reliability
+- Developing and expanding **UJASCODE.IN** into a professional software development brand
 
 ---
 
 ## Technology Stack
 
-**Frontend:** HTML5, CSS3, JavaScript, TypeScript, React, Next.js, Tailwind CSS  
-**Backend:** Node.js, Express.js, REST APIs  
+**Frontend Development:** HTML5, CSS3, JavaScript, TypeScript, React.js, Next.js, Tailwind CSS  
+**Backend Development:** Node.js, Express.js, REST APIs  
+**Mobile App Development:** Android Development, Kotlin, Jetpack Compose  
 **Databases:** MongoDB, MySQL, PostgreSQL, Supabase  
-**Authentication:** JWT, Supabase Auth, NextAuth.js  
-**Tools & Platforms:** Git, GitHub, VS Code, Postman, Vercel, Render
+**Authentication & Security:** JWT, Supabase Auth, NextAuth.js  
+**Tools & Platforms:** Git, GitHub, VS Code, Android Studio, Postman, Vercel, Render
 
 ---
 
