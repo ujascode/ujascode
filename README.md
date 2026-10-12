@@ -60,16 +60,25 @@ A sample 3D model of a CNC machine for demonstration or testing.
 
 ## UJASCODE.IN
 
-UJASCODE.IN is a software development and digital solutions brand focused on business websites, responsive web design, landing pages, portfolios, custom web applications, dashboards, integrations, and deployment.
-- [Visit Website](https://ujascode.in/)
-- [GitHub Repository](https://github.com/ujascode/ujascode)
+**UJASCODE.IN** is a software development and digital solutions brand dedicated to building modern websites, web applications, and digital experiences for businesses. We specialize in responsive web design, landing pages, portfolio websites, custom web applications, interactive dashboards, API integrations, and deployment—helping businesses establish a strong digital presence through reliable technology and thoughtful design.
+
+**Our Services:**
+- Business Websites & Landing Pages
+- Custom Web Applications
+- Responsive UI/UX Design
+- Portfolio & E-commerce Websites
+- Dashboard Development
+- API & Database Integration
+- Authentication Systems
+- Third-Party Service Integration
+- Website Optimization & Deployment
 
 ---
 
 ## Connect with Me
 
 - **GitHub:** [ujascode](https://github.com/ujascode)
-- **Personal Portfolio:** [ujasportfolio.vercel.app](https://portfolio.ujascode.in)
+- **Personal Portfolio:** [portfolio.ujascode.in](https://portfolio.ujascode.in)
 - **UJASCODE.IN:** [ujascode.in](https://ujascode.in/)
 
 ---
