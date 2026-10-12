@@ -1,8 +1,7 @@
 # Ujas Shekhat
 ## Technical Founder | Full-Stack Web Developer
 
-Building useful digital products with modern web technologies,
-thoughtful engineering, and clean user experiences.
+Building modern web applications and mobile apps through thoughtful engineering, scalable architecture, and exceptional user experiences.
 
 [Personal Website](https://portfolio.ujascode.in) | [Company Website](https://ujascode.in/)
 
